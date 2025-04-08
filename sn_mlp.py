@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import pandas as pd
 # Dati
-df = pd.read_csv('C:/_Home/Type_Ia_SN_simulations_ASTENA/expo_100000.0/new_rich.csv')
+df = pd.read_csv('new_rich.csv')
 energia = df['energy'].values
 flusso = df['flux'].values
 FWHM = df['FWHM'].values
